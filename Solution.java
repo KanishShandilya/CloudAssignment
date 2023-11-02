@@ -19,7 +19,7 @@ public class Solution{
                     pq1.add(v-r1);
                 }
             }
-            
+            System.out.println(pq);
             int m=sc.nextInt();
             for(int i=0;i<m;i++){
                 int x1=sc.nextInt();
