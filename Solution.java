@@ -30,10 +30,10 @@ public class Solution{
                 }
             }
             if(m==0){
-                System.out.println("Case #"+k+": "+pq1.size()+" "+"0");
+                System.out.println("Case 1"+k+": "+pq1.size()+" "+"0");
             }
             else if(n==0){
-                System.out.println("Case #"+k+": "+"0"+" "+pq2.size());
+                System.out.println("Case 2"+k+": "+"0"+" "+pq2.size());
             }
             else{
                 int res=0;
@@ -52,7 +52,7 @@ public class Solution{
                         res++;
                         pq2.poll();
                     }
-                    System.out.println("Case #"+k+": "+"0"+" "+res);
+                    System.out.println("Case 3"+k+": "+"0"+" "+res);
                 }
                 
             }
